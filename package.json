@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.6",
+    "autoprefixer": "^10.4.14",
+    "fibers": "^5.0.3",
+    "node-gyp": "^9.3.1",
+    "nuxt": "^3.3.2",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.1.0",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
